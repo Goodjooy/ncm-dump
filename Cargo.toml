@@ -1,0 +1,20 @@
+[package]
+name = "ncm-dump"
+version = "0.1.0"
+edition = "2021"
+description = "rust impliment of Ncm dump"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aes = "0.8.1"
+base64 = "0.21.0"
+byteorder = "1.4.3"
+clap = { version = "4.1.4", features = ["derive"] }
+flac = "0.5.0"
+id3 = "1.6.0"
+pkcs7 = "0.3.0"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.91"
+tap = "1.0.1"
+thiserror = "1.0.38"
